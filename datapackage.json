@@ -2,8 +2,8 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "resource1",
-      "path": "output.csv",
+      "name": "output-data",
+      "path": "data/output.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
