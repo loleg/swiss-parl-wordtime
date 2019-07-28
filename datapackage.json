@@ -1,0 +1,112 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "resource1",
+      "path": "output.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "PersonNumber",
+            "type": "integer",
+            "format": "default",
+            "title": "Person Number",
+            "description": "An identifier that is used across the Parliamentary Web services"
+          },
+          {
+            "name": "SpeakerFullName",
+            "type": "string",
+            "format": "default",
+            "title": "Speaker Full Name",
+            "description": "The first and last name of the speaker."
+          },
+          {
+            "name": "Gender",
+            "type": "string",
+            "format": "default",
+            "title": "Gender",
+            "description": "m for male, f for female, if and as specified in the original metadata."
+          },
+          {
+            "name": "Rat",
+            "type": "string",
+            "format": "default",
+            "title": "Council",
+            "description": "Indicates whether the person is a member of the National or Federal council."
+          },
+          {
+            "name": "Partei",
+            "type": "string",
+            "format": "default",
+            "title": "Party",
+            "description": "The political party of affiliation."
+          },
+          {
+            "name": "Fraktion",
+            "type": "string",
+            "format": "default",
+            "title": "Fraktion",
+            "description": "Political sub-affiliation."
+          },
+          {
+            "name": "PMCount",
+            "type": "integer",
+            "format": "default",
+            "title": "Chairmanship count",
+            "description": "A control to indicate the number of times this person chaired a meeting."
+          },
+          {
+            "name": "TotalDuration",
+            "type": "integer",
+            "format": "default",
+            "title": "Total duration",
+            "description": "Of all speeches, in seconds."
+          },
+          {
+            "name": "TotalWords",
+            "type": "integer",
+            "format": "default",
+            "title": "Total words",
+            "description": "In all transcripts, the number of words."
+          },
+          {
+            "name": "TotalSessions",
+            "type": "integer",
+            "format": "default",
+            "title": "Total sessions",
+            "description": "The number of unique sessions that were accounted."
+          },
+          {
+            "name": "TotalTranscripts",
+            "type": "integer",
+            "format": "default",
+            "description": "The number of transcripted speeches that were accounted for.",
+            "title": "Total transcripted"
+          }
+        ]
+      }
+    }
+  ],
+  "keywords": [
+    "switzerland"
+  ],
+  "name": "swiss-parl-wordtime",
+  "title": "Swiss Parliament sessions aggregated by spoken words and time",
+  "description": "Data from an analysis of speeches of Swiss politicians evaluated by Beobachter magazine. The data source is Parliamentary Services of the Federal Assembly, Bern",
+  "homepage": "https://github.com/loleg/swiss-parl-wordtime",
+  "version": "0.1.0",
+  "contributors": [
+    {
+      "title": "O Lavrovsky",
+      "role": "author"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "ODC-PDDL-1.0",
+      "title": "Open Data Commons Public Domain Dedication and Licence 1.0",
+      "path": "http://www.opendefinition.org/licenses/odc-pddl"
+    }
+  ]
+}
