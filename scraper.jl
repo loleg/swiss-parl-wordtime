@@ -260,11 +260,6 @@ CSV.write("output.csv", dfltr, delim = ';')
 
 # 3880 74
 
-CSV.write("test2.csv", df3t[df3t.PersonNumber .== 3880, :], delim = ';')
+CSV.write("data/output.csv", df3t[df3t.PersonNumber .== 3880, :], delim = ',')
 
-show(df3[df3.ID .== "215124", :], allcols=true)
-
-show(df3[df3.ID .== "206655", :], allcols=true)
-
-println(size(dflt[dflt.Duration .<= Dates.Hour(6), :]))
 println(size(dflt))
