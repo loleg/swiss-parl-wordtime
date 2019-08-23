@@ -63,7 +63,7 @@ This Data Package is made available under the Public Domain Dedication and Licen
 
 ### Notes
 
-The [Terms of Use][https://www.parlament.ch/en/services/open-data-webservices] of the source dataset list three specific restrictions on public use of these data:
+The [Terms of Use](https://www.parlament.ch/en/services/open-data-webservices) (parlament.ch) of the source dataset list three specific restrictions on public use of these data:
 
 - this information may not be used in such a way that it gives the impression of being an official publication
 - if this information is reproduced the source must be indicated as follows: «Parliamentary Services of the Federal Assembly, Bern»;
