@@ -1,14 +1,18 @@
+[![goodtables.io](https://goodtables.io/badge/github/loleg/swiss-parl-wordtime.svg)](https://goodtables.io/github/loleg/swiss-parl-wordtime)
+
 This repository contains code and open data from an analysis of speeches of Swiss politicians evaluated by [Beobachter magazine](https://en.wikipedia.org/wiki/Beobachter_(magazine)) together with Oleg Lavrovsky from the association [Opendata.ch](https://opendata.ch), as basis for the article [Im Bundeshaus reden Frauen weniger](https://www.beobachter.ch/politik/wahlen-2019/long-read/datenanalyse-im-bundeshaus-reden-frauen-weniger) (Tina Berg, Yves Demuth 18.07.2019)
 
 _Data source:_ Parliamentary Services of the Federal Assembly, Bern
 
 _Last update:_ May 9, 2019
 
+[<img alt="DataHub" src="https://datahub.io/static/img/logo-cube.png" width="50"><br>DataHub preview](https://datahub.io/loleg/swiss-parl-wordtime/v/1)
+
 ## Background
 
-On the topic of the 2019 national elections in Switzerland, Beobachter magazine evaluated speeches during sessions of the [National Council](https://www.parlament.ch/en/organe/national-council) and the [Council of States](https://www.parlament.ch/en/organe/council-of-states). The first three years of the current legislative period - between November 2015 and December 2018 - were taken into account. 
+On the topic of the 2019 national elections in Switzerland, we analyzed parliamentary speeches during sessions of the [National Council](https://www.parlament.ch/en/organe/national-council) and the [Council of States](https://www.parlament.ch/en/organe/council-of-states). The first three years of the current legislative period - between November 2015 and December 2018 - were taken into account. 
 
-Our focus was strictly on political speeches. During this period, there were seven Presidents and Vice-Presidents of the Council of States, and six Presidents and Vice-Presidents of the National Council whose speaking time was not evaluated, since it is mostly of administrative content. Several members of the Councils resigned or came in between 2015 and 2018: they were also not counted. The  were also excluded from the analysis. 
+Our focus was strictly on political speeches. During this period, there were seven Presidents and Vice-Presidents of the Council of States, and six Presidents and Vice-Presidents of the National Council whose speaking time was not evaluated, since it included administrative content and therefore was not comparable to the other speeches. Several members of the Councils resigned or came in between 2015 and 2018: they were also not counted. They were likewise excluded from the analysis. 
 
 The evaluation therefore takes into account the speeches of 39 Council of States members (5 women and 34 men) who spoke a total of 315 hours (~13 days), as well as 175 National Council members (56 women and 119 men), who spoke a total of 552 hours (~23 days). 
 
